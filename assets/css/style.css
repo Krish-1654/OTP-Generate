@@ -1,0 +1,30 @@
+.container-fluid {
+  height: 100vh;
+  background: linear-gradient(
+    120deg,
+    rgba(158, 217, 196, 3),
+    rgba(165, 112, 198, 6)
+  );
+}
+
+.card {
+    backdrop-filter: blur(10px) !important;
+    background-color: rgba(15, 25, 43, 0.705) !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(31, 20, 20, 0.432) !important;
+}
+input:focus{
+    border: 1px solid rgba(255, 0, 0, 0.397) !important;
+}
+input::placeholder{
+    font-weight: bold;
+    color: black !important;
+}
+
+#try{
+  width:200px;
+  height:200px;
+  background-color:red;
+}
+
+
